@@ -1,4 +1,4 @@
-# presto-v2
+# Presto v2
 
 The all-new Presto v2 featuring:
 
