@@ -1,3 +1,13 @@
+//
+//  Servo Controller
+//  Thibault Brevet
+//  
+//  Flash on an ATTiny45/85
+//
+//  SoftwareServo library required, set the ATTiny to work at 1Mhz
+//
+//
+
 #include <SoftwareServo.h>
 
 // settings
@@ -7,7 +17,7 @@ int pot = A1;
 int up = 0;
 
 void setup()
-{ 
+{
   // init stuff
   pinMode(in, INPUT);
   pinMode(pot, INPUT);
@@ -17,7 +27,7 @@ void setup()
 void loop() {
   // check what setting is with the pot
   int down = analogRead(pot) / 4;
-  
+
   // if the input is HIGH set the servo down
   if (digitalRead(in)){
     // move down
