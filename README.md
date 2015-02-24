@@ -1,5 +1,7 @@
 # Presto v2
 
+*The project is currently in development, this repo is not complete yet.*
+
 The all-new Presto v2 featuring:
 
 - upgraded hardware for easy and fast build
