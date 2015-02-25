@@ -16,6 +16,10 @@ Updates in v2:
 - design arduino shield PCB including 2 stepper drivers, 1 ATTiny45 to avoid the cable salad and don't have a slave board
 - test clip-in system for shafts in side frames instead of current pressure screws, test plywood flex
 
+## Get Started
+
+go to the [How-To](howto.md).
+
 ## References
 
 - [dented gear generation](http://hessmer.org/gears/InvoluteSpurGearBuilder.html).
