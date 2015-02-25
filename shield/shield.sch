@@ -4833,6 +4833,8 @@ Source: RS Components</description>
 <part name="C2" library="SparkFun-Capacitors" deviceset="1.0UF-25V-+80/-20(0805)" device="" value="1.0uF"/>
 <part name="R2" library="SparkFun-Passives" deviceset="POTENTIOMETER" device=""/>
 <part name="SUPPLY9" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY10" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4850,8 +4852,8 @@ Source: RS Components</description>
 <instance part="U3" gate="A" x="218.44" y="58.42"/>
 <instance part="SUPPLY2" gate="G$1" x="53.34" y="68.58" rot="R270"/>
 <instance part="SUPPLY3" gate="G$1" x="20.32" y="73.66"/>
-<instance part="SUPPLY1" gate="G$1" x="127" y="88.9" rot="R90"/>
-<instance part="SUPPLY4" gate="G$1" x="193.04" y="88.9" rot="R90"/>
+<instance part="SUPPLY1" gate="G$1" x="124.46" y="83.82" rot="R90"/>
+<instance part="SUPPLY4" gate="G$1" x="193.04" y="83.82" rot="R90"/>
 <instance part="GND4" gate="1" x="127" y="22.86" rot="R270"/>
 <instance part="GND5" gate="1" x="193.04" y="22.86" rot="R270"/>
 <instance part="JP2" gate="G$1" x="177.8" y="86.36" rot="R180"/>
@@ -4859,8 +4861,8 @@ Source: RS Components</description>
 <instance part="U4" gate="G$1" x="86.36" y="-35.56"/>
 <instance part="GND6" gate="1" x="60.96" y="-40.64" rot="R270"/>
 <instance part="SUPPLY5" gate="G$1" x="60.96" y="-27.94" rot="R90"/>
-<instance part="SUPPLY6" gate="G$1" x="121.92" y="68.58" rot="R90"/>
-<instance part="SUPPLY7" gate="G$1" x="180.34" y="68.58" rot="R90"/>
+<instance part="SUPPLY6" gate="G$1" x="124.46" y="88.9" rot="R90"/>
+<instance part="SUPPLY7" gate="G$1" x="193.04" y="88.9" rot="R90"/>
 <instance part="JP4" gate="G$1" x="139.7" y="-33.02" rot="R180"/>
 <instance part="SUPPLY8" gate="G$1" x="124.46" y="-33.02" rot="R90"/>
 <instance part="GND7" gate="1" x="127" y="-58.42"/>
@@ -4869,6 +4871,8 @@ Source: RS Components</description>
 <instance part="C2" gate="G$1" x="68.58" y="-35.56"/>
 <instance part="R2" gate="G$1" x="111.76" y="-48.26"/>
 <instance part="SUPPLY9" gate="G$1" x="104.14" y="-48.26" rot="R90"/>
+<instance part="SUPPLY10" gate="G$1" x="127" y="43.18" rot="R90"/>
+<instance part="SUPPLY11" gate="G$1" x="193.04" y="43.18" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -4896,12 +4900,30 @@ Source: RS Components</description>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
 <pinref part="U2" gate="A" pin="GND"/>
-<wire x1="129.54" y1="22.86" x2="134.62" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="22.86" x2="132.08" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="U2" gate="A" pin="MS3"/>
+<wire x1="132.08" y1="22.86" x2="134.62" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="38.1" x2="132.08" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="38.1" x2="132.08" y2="25.4" width="0.1524" layer="91"/>
+<junction x="132.08" y="22.86"/>
+<pinref part="U2" gate="A" pin="GND_2"/>
+<wire x1="132.08" y1="25.4" x2="132.08" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="25.4" x2="132.08" y2="25.4" width="0.1524" layer="91"/>
+<junction x="132.08" y="25.4"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
 <pinref part="U3" gate="A" pin="GND"/>
-<wire x1="195.58" y1="22.86" x2="200.66" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="22.86" x2="198.12" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="U3" gate="A" pin="MS3"/>
+<wire x1="198.12" y1="22.86" x2="200.66" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="38.1" x2="198.12" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="38.1" x2="198.12" y2="25.4" width="0.1524" layer="91"/>
+<junction x="198.12" y="22.86"/>
+<pinref part="U3" gate="A" pin="GND_2"/>
+<wire x1="198.12" y1="25.4" x2="198.12" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="25.4" x2="198.12" y2="25.4" width="0.1524" layer="91"/>
+<junction x="198.12" y="25.4"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
@@ -4943,13 +4965,23 @@ Source: RS Components</description>
 </segment>
 <segment>
 <pinref part="SUPPLY1" gate="G$1" pin="12V"/>
-<pinref part="U2" gate="A" pin="VDD"/>
-<wire x1="127" y1="88.9" x2="134.62" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="83.82" x2="132.08" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="U2" gate="A" pin="VBB2"/>
+<pinref part="U2" gate="A" pin="VBB1"/>
+<wire x1="132.08" y1="83.82" x2="134.62" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="86.36" x2="132.08" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="86.36" x2="132.08" y2="83.82" width="0.1524" layer="91"/>
+<junction x="132.08" y="83.82"/>
 </segment>
 <segment>
 <pinref part="SUPPLY4" gate="G$1" pin="12V"/>
-<pinref part="U3" gate="A" pin="VDD"/>
-<wire x1="193.04" y1="88.9" x2="200.66" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="83.82" x2="198.12" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="U3" gate="A" pin="VBB2"/>
+<pinref part="U3" gate="A" pin="VBB1"/>
+<wire x1="198.12" y1="83.82" x2="200.66" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="86.36" x2="198.12" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="86.36" x2="198.12" y2="83.82" width="0.1524" layer="91"/>
+<junction x="198.12" y="83.82"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -4972,16 +5004,6 @@ Source: RS Components</description>
 <junction x="68.58" y="-27.94"/>
 </segment>
 <segment>
-<pinref part="SUPPLY6" gate="G$1" pin="5V"/>
-<pinref part="U2" gate="A" pin="VREG"/>
-<wire x1="121.92" y1="68.58" x2="134.62" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY7" gate="G$1" pin="5V"/>
-<pinref part="U3" gate="A" pin="VREG"/>
-<wire x1="180.34" y1="68.58" x2="200.66" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="SUPPLY8" gate="G$1" pin="5V"/>
 <pinref part="JP4" gate="G$1" pin="2"/>
 <wire x1="124.46" y1="-33.02" x2="132.08" y2="-33.02" width="0.1524" layer="91"/>
@@ -4990,6 +5012,36 @@ Source: RS Components</description>
 <pinref part="SUPPLY9" gate="G$1" pin="5V"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="-48.26" x2="106.68" y2="-48.26" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY10" gate="G$1" pin="5V"/>
+<pinref part="U2" gate="A" pin="MS1"/>
+<wire x1="127" y1="43.18" x2="132.08" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="U2" gate="A" pin="MS2"/>
+<wire x1="132.08" y1="43.18" x2="134.62" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="40.64" x2="132.08" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="40.64" x2="132.08" y2="43.18" width="0.1524" layer="91"/>
+<junction x="132.08" y="43.18"/>
+</segment>
+<segment>
+<pinref part="SUPPLY11" gate="G$1" pin="5V"/>
+<pinref part="U3" gate="A" pin="MS1"/>
+<wire x1="193.04" y1="43.18" x2="198.12" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="U3" gate="A" pin="MS2"/>
+<wire x1="198.12" y1="43.18" x2="200.66" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="40.64" x2="198.12" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="40.64" x2="198.12" y2="43.18" width="0.1524" layer="91"/>
+<junction x="198.12" y="43.18"/>
+</segment>
+<segment>
+<pinref part="SUPPLY6" gate="G$1" pin="5V"/>
+<wire x1="124.46" y1="88.9" x2="134.62" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="U2" gate="A" pin="VDD"/>
+</segment>
+<segment>
+<pinref part="SUPPLY7" gate="G$1" pin="5V"/>
+<wire x1="193.04" y1="88.9" x2="200.66" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="U3" gate="A" pin="VDD"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -5055,6 +5107,7 @@ Source: RS Components</description>
 <wire x1="104.14" y1="66.04" x2="104.14" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="D2"/>
 <wire x1="104.14" y1="35.56" x2="99.06" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="66.04" x2="104.14" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
