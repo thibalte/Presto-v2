@@ -8,7 +8,7 @@ The all-new Presto v2 featuring:
 - easy electronics, no need for 2 arduinos
 - host software for auto/manual printing, on-the-fly G-Code generation
 
-## references
+## References
 
 - Main Y tube gear generated with [this tool](http://hessmer.org/gears/InvoluteSpurGearBuilder.html).
 - Improvements on side frames and x-carriage thanks to Matt Maurer, Fabian Ritzi, Kevin Rentz @ Hyperwerk, Basel CH.

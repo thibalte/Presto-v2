@@ -1,0 +1,5 @@
+$0=25.464 (x, step/mm)
+$1=24.615 (y, step/mm)
+$4=15000.000 (default feed, mm/min)
+$5=15000.000 (default seek, mm/min)
+$8=100.000 (acceleration, mm/sec^2)
