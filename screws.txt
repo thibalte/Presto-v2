@@ -1,0 +1,23 @@
+# SCREWS
+
+x-axis
+- 1 m3 headless
+x 4 m5 20mm flat head
+
+y axis
+- 1 m3 headless
+x 4 m5 20mm flat head
+x 2 m5 30mm flat head
+x 1 m5 40mm flat head
+
+shaft pressure
+x 6 m5 20mm flat head
+
+servo
+x 4 m3 10mm flat head
+
+belt holder
+x 2 m4 50mm flat head
+
+mosfet heatsink
+x 1 m3 10mm + m3 nut
