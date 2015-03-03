@@ -1,18 +1,18 @@
 # PRESTO - Guide utilisateur v0.1 FR
 
-### terminologie
+## terminologie
 
+### X-axis-side
 ![](images/parts/x-axis-side.png)
-X-axis-side
 
+### Y-axis-side
 ![](images/parts/y-axis-side.png)
-Y-axis-side
 
+### Y-axis-frame
 ![](images/parts/y-axis-frame.png)
-Y-axis-frame
 
+### Charriot
 ![](images/parts/pen-carriage.png)
-Charriot
 
+### Clip pour courroie
 ![](images/parts/belt-clip.png)
-Clip pour courroie
