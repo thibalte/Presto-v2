@@ -57,17 +57,17 @@
 
 ![](images/steps/secure-pressure-screws-x-axis.png)
 
-- On peut à présent accrocher l'assemblage aux cordes. En premier, passer les 2 mousquetons et boucles dans les trous en haut des **X-axis-side** et **Y-axis-side**, accrocher la corder quelque part, puis suspendre l'assemblage, à environ 1m du sol, donne un bon confort de travail.
+- On peut à présent accrocher l'assemblage aux cordes. En premier, passer les 2 mousquetons et boucles dans les trous en haut des **X-axis-side** et **Y-axis-side**, accrocher la corde quelque part, puis suspendre l'assemblage, à environ 1m du sol, donne un bon confort de travail.
 
 - Installer le **Y-axis-frame** sur le **Y-axis-side**, le visser par les 2 vis M5 30mm. /!\ ATTENTION /!\ ne pas serrer trop fort les vis sur le plexiglass, il risque de craquer si trop fort. Si la pièce ne bouge plus et qu'il n'y a pas de jeu cela suffit.
 
 ![](images/steps/set-y-axis-motor-frame.png)
 
-- Installer le **Y-axis-pulley** (la vis M5 40mm avec 2 rondelles et un roulement à bille dans le sachet) sur le **X-axis-side**, ne pas visser en entier, laisser environ 1cm de séparation entre le bois et le boulon collé sur la vis:
+- Installer le **Y-axis-pulley** (la vis M5 40mm avec 2 rondelles et un roulement à bille dans le sachet) sur le **X-axis-side**, ne pas visser en entier, laisser environ 1cm de séparation entre le bois et le boulon collé sur la vis (il faut utiliser soit une clé hexagonale, soit utiliser une pince plate et pincer la tête hexagonale pour visser):
 
 ![](images/steps/set-y-axis-smooth-roller.png)
 
-- Installer le **Y-axis-motor**, le moteur avec une roue dentée de couleur argent, sur le **Y-axis-frame** (le moteur doit être du côté **Y-axis-side** du plexiglass, côté bois):
+- Installer le **Y-axis-motor**, le moteur avec une roue dentée de couleur argent, sur le **Y-axis-frame** (le moteur doit être du côté **Y-axis-side** du plexiglass, côté bois) (si les vis tournent dans le vide, c'est parce qu'il faut bien bloquer les boulons qui tournent dans le vide, on peut insérer le tournevis plat pour boquer les boulons pendant que l'on visse):
 
 ![](images/steps/insert-y-axis-motor.png)
 
@@ -77,7 +77,7 @@
 
 - Vérifier que le charriot coulisse bien sans frottement majeur, il faut uniquement le pousser par la partie ou se situe les 2 flèches noires, autrement on le pousse de travers et c'est normal qu'il se bloque (en gros: il faut le pousser au niveau du milieu entre les 2 axes, si on le pousse par le haut il y'a du porte-à-faux et ça coince). Si il y'a un frottement anormal, déserrer les vis de pression d'un côté et essayer de réaligner les 2 **X-axis-side** et **Y-axis-side**: un frottement excessif apparait si les 2 côtés ne sont pas bien parallèles, du coup les 2 axes ne sont pas parallèles non plus et le charriot coince.
 
-- Insérer la courroie dentée en passant autour du **Y-axis-motor** et de la poulie du côté **X-axis-side**, et pincer la courroie en la passant sour les 2 **belt-clips**. /!\ ATTENTION /!\ ne pas visser d'un coup une des 2 vis, visser petit à petit les 2 côtés pour ne pas risquer de craquer la pièce. lorsque la courroie est presque pincée, la tendre pour qu'elle ne "flotte" plus.
+- Insérer la courroie dentée en passant autour du **Y-axis-motor** et de la poulie du côté **X-axis-side**, et pincer la courroie en la passant sous les 2 **belt-clips**. /!\ ATTENTION /!\ ne pas visser d'un coup une des 2 vis, visser petit à petit les 2 côtés pour ne pas risquer de craquer la pièce. lorsque la courroie est presque pincée, la tendre pour qu'elle ne "flotte" plus.
 
 ![](images/steps/insert-belt.png)
 
@@ -85,7 +85,7 @@
 
 ![](images/steps/insert-x-axis-motor.png)
 
-- Insérer le **pen-holder** (pièce assemblée en plexiglass) dans le **charriot**. Les 2 pièces en plastique jaune s'insère dans la glissière en métal du **charriot**. La partie en plastique blanche s'insére en enlevant la vis noire du servo-moteur du **charriot** et en y plaçant la partie en plastique blanche. /!\ ATTENTION /!\ ne pas enlever la partie en plastique blanche déjà présente sur le servo-moteur, sinon on perd la position du servo-moteur et c'est très embêtant à retrouver.
+- Insérer le **pen-holder** (pièce assemblée en plexiglass) dans le **charriot**. Les 2 pièces en plastique jaune s'insèrent dans la glissière en métal du **charriot**. La partie en plastique blanche s'insére en enlevant la vis noire du servo-moteur du **charriot** et en y plaçant la partie en plastique blanche. /!\ ATTENTION /!\ ne pas enlever la partie en plastique blanche déjà présente sur le servo-moteur, sinon on perd la position du servo-moteur et c'est très embêtant à retrouver.
 
 - La partie en plastique blanche, le bras du servo-moteur, doit être inséré avec le fil de fer en métal plié, déjà inséré dans le plexiglass en même temps, qui lie le bras du servo-moteur et la partie en plexiglass, c'est cette partie qui fait monter/descendre l'outil installé sur le **charriot**.
 
