@@ -67,7 +67,7 @@
 
 ![](images/steps/set-y-axis-smooth-roller.png)
 
-- Installer le **Y-axis-motor**, le moteur avec une roue dentée de couleur argent, sur le **Y-axis-frame**:
+- Installer le **Y-axis-motor**, le moteur avec une roue dentée de couleur argent, sur le **Y-axis-frame** (le moteur doit être du côté **Y-axis-side** du plexiglass, côté bois):
 
 ![](images/steps/insert-y-axis-motor.png)
 
@@ -75,7 +75,7 @@
 
 ![](images/steps/prepare-belt-clips.png)
 
-- Vérifier que le charriot coulisse bien sans frottement majeur, il faut uniquement le pousser par la partie ou se situe les 2 flèches noires, autrement on le pousse de travers et c'est normale qu'il se bloque (en gros: il faut le pousser au niveau du milieu entre les 2 axes, si on le pousse par le haut il y'a du porte-à-faux et ça coince). Si il y'a un frottement anormal, déserrer les vis de perssions d'un côté et essayer de réaligner les 2 **X-axis-side** et **Y-axis-side**: un frottement excessif apparait si les 2 côtés ne sont pas bien parallèles, du coup les 2 axes ne sont pas parallèles non plus et le charriot coince.
+- Vérifier que le charriot coulisse bien sans frottement majeur, il faut uniquement le pousser par la partie ou se situe les 2 flèches noires, autrement on le pousse de travers et c'est normal qu'il se bloque (en gros: il faut le pousser au niveau du milieu entre les 2 axes, si on le pousse par le haut il y'a du porte-à-faux et ça coince). Si il y'a un frottement anormal, déserrer les vis de pression d'un côté et essayer de réaligner les 2 **X-axis-side** et **Y-axis-side**: un frottement excessif apparait si les 2 côtés ne sont pas bien parallèles, du coup les 2 axes ne sont pas parallèles non plus et le charriot coince.
 
 - Insérer la courroie dentée en passant autour du **Y-axis-motor** et de la poulie du côté **X-axis-side**, et pincer la courroie en la passant sour les 2 **belt-clips**. /!\ ATTENTION /!\ ne pas visser d'un coup une des 2 vis, visser petit à petit les 2 côtés pour ne pas risquer de craquer la pièce. lorsque la courroie est presque pincée, la tendre pour qu'elle ne "flotte" plus.
 
@@ -85,7 +85,7 @@
 
 ![](images/steps/insert-x-axis-motor.png)
 
-- Insérer le **pen-holder** (pièce assemblée en plexiglass) dans le **charriot**. Les 2 pièces en plastique jaune s'insère dans la glissière en métal du **charriot**. La partie en plastique blanche s'insére en enlevant la vis noire su servo-moteur du **charriot** et en y plaçant la partie en plastique blanche. /!\ ATTENTION /!\ ne pas enlever la partie en plastique blanche déjà présente sur le servo-moteur, sinon on perd la position du servo-moteur et c'est très embêtant à retrouver.
+- Insérer le **pen-holder** (pièce assemblée en plexiglass) dans le **charriot**. Les 2 pièces en plastique jaune s'insère dans la glissière en métal du **charriot**. La partie en plastique blanche s'insére en enlevant la vis noire du servo-moteur du **charriot** et en y plaçant la partie en plastique blanche. /!\ ATTENTION /!\ ne pas enlever la partie en plastique blanche déjà présente sur le servo-moteur, sinon on perd la position du servo-moteur et c'est très embêtant à retrouver.
 
 - La partie en plastique blanche, le bras du servo-moteur, doit être inséré avec le fil de fer en métal plié, déjà inséré dans le plexiglass en même temps, qui lie le bras du servo-moteur et la partie en plexiglass, c'est cette partie qui fait monter/descendre l'outil installé sur le **charriot**.
 
@@ -103,7 +103,7 @@
 
 - Brancher le câble de servo moteur sur le câbe à 3 brins, en suivant ce sens: Noir dans Noir
 
-- Ne pas toucher le potentiomètre réglagle: il sert à ajuster la hauteur à laquelle l'outil se lève lorsque l'on imprime. Uniquement à utiliser pour personne expérimentée.
+- Ne pas toucher le potentiomètre réglable: il sert à ajuster la hauteur à laquelle l'outil se lève lorsque l'on imprime. Uniquement à utiliser pour personne expérimentée.
 
 - Brancher le câble USB à l'Arduino et l'ordinateur
 
@@ -112,6 +112,8 @@
 - Visser le câble d'alimentation noire suivant les étiquettes au bloc d'alimentation
 
 - Brancher la prise noire ronde mâle venant du bloc d'alimentation dans la prise femelle de l'assemblage électronique: une petite lumière sur les cartes rouges doit s'allumer
+
+- /!\ NE JAMAIS BRANCHER OU DéBRANCHER LES CABLES DES MOTEURS LORSQUE L'ENSEMBLE EST BRANCHé AU BLOC D'ALIMENTATION SOUS PEINE DE GRILLER LES PETITES CARTES ROUGES (LES DRIVERS DES MOTEURS PAS-à-PAS)
 
 - Les branchements électriques sont terminée!
 
