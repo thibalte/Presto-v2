@@ -25,3 +25,6 @@ ControlP5 cp5;
 // Serial vars
 Serial tool;
 Serial plotter;
+
+// ARDUINO PORT TO REPLACE
+String grbl = "/dev/tty.usbmodem14211";

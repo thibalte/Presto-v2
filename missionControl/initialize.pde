@@ -80,6 +80,6 @@ void initialize()
 }
 
 void connect(){
- plotter = new Serial(this, "/dev/tty.usbmodem14211", 115200);
+ plotter = new Serial(this, grbl, 115200);
  plotter.bufferUntil('\n');
 }
