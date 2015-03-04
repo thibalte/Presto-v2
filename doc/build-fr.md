@@ -49,7 +49,7 @@
 
 ![](images/steps/insert-pen-holder-carriage-and-drum.png)
 
-- Pour insérer le **X-axis side**, il est recommandé de placer l'assemblage debout sur le **Y-axis-side**, il suffit de taper gentiment avec un petit marteau sur le long du **X-axis-side** pour qu'il s'enfile sur les 3 axes:
+- Pour insérer le **X-axis side**, il est recommandé de placer l'assemblage debout sur le **Y-axis-side**, il suffit de taper gentiment avec un petit marteau sur le long du **X-axis-side** pour qu'il s'enfile sur les 3 axes (à noter, les axes sont plus long d'environ 1-2cm, c'est normal qu'ils dépassent de ce côté):
 
 ![](images/steps/put-y-axis-on-floor-to-push-x-axis-side.png)
 
