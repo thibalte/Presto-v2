@@ -6,7 +6,7 @@
 3. Branchements électriques
 4. Logiciel
 
-## 0. Outils
+## 1. Outils
 
 - 1 tournevis plat
 - 1 tournevis cruciforme
@@ -14,7 +14,7 @@
 - 1 pince plate
 - 1 marteau
 
-## 1. Terminologie
+## 2. Terminologie
 
 ### X-axis-side
 ![](images/parts/x-axis-side.png)
@@ -31,7 +31,7 @@
 ### Clip pour courroie
 ![](images/parts/belt-clips.png)
 
-## 2. Assemblage mécanique
+## 3. Assemblage mécanique
 
 - Insérer 3 vis M5 20mm dans les 3 trous du **Y-axis-side** et **X-axis-side**, ne pas les visser trop, elles ne doivent pas sortir à l'intérieur du trou de passage des axes
 
@@ -93,7 +93,7 @@
 
 - L'assemblage mécanique est terminé!
 
-## 3. Branchements électriques
+## 4. Branchements électriques
 
 - Sortir l'assemblage électronique ainsi que la carte Arduino.
 
@@ -117,7 +117,7 @@
 
 - Les branchements électriques sont terminée!
 
-## 4. Logiciel
+## 5. Logiciel
 
 - Télécharger et installer Processing (http://www.processing.org), Arduino (http://www.arduino.cc), ainsi que la libraire pour Processing: Geomerative (http://www.ricardmarxer.com/geomerative/), et ControlP5 (http://www.sojamo.de/libraries/controlP5/) (les télécharger et les placer dans le dossier ~/Documents/Processing/librairies, par exemple, peut varier suivant l'installation)
 
