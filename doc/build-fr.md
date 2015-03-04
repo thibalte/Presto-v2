@@ -1,9 +1,18 @@
 # PRESTO - Guide utilisateur v0.1 FR
 
+0. Outils
 1. Terminologie
 2. Assemblage mécanique
 3. Branchements électriques
 4. Logiciel
+
+## 0. Outils
+
+- 1 tournevis plat
+- 1 tournevis cruciforme
+- 1 clé Allen 5
+- 1 pince plate
+- 1 marteau
 
 ## 1. Terminologie
 
