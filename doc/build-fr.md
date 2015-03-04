@@ -119,7 +119,7 @@
 
 ## 5. Logiciel
 
-- Télécharger et installer Processing (http://www.processing.org), Arduino (http://www.arduino.cc), ainsi que la libraire pour Processing: Geomerative (http://www.ricardmarxer.com/geomerative/), et ControlP5 (http://www.sojamo.de/libraries/controlP5/) (les télécharger et les placer dans le dossier ~/Documents/Processing/librairies, par exemple, peut varier suivant l'installation)
+- Télécharger et installer Processing (http://www.processing.org), Arduino (http://www.arduino.cc), ainsi que la libraire pour Processing: Geomerative (http://www.ricardmarxer.com/geomerative/), et ControlP5 (http://www.sojamo.de/libraries/controlP5/) (les télécharger et les placer dans le dossier ~/Documents/Processing/librairies, par exemple, peut varier suivant l'installation) Installer les drivers FTDI pour la communication avec l'Arduino (http://arduino.cc/en/Guide/Howto)
 
 - Ouvrir le programme Mission Control dans le dossier Github avec Processing: simplement ouvrir missionControl.pde avec Processing.
 
