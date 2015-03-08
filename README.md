@@ -1,3 +1,5 @@
+![assembly](doc/images/presto.png)
+
 # Presto v2
 
 *The project is currently in development, this repo is not complete yet.*
